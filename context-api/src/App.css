@@ -1,0 +1,19 @@
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: cadetblue;
+  place-items: center;
+}
+
+main {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  place-items: center;
+  background: beige;
+}
+
+footer {
+  display: grid;
+  place-items: center;
+  background: darksalmon;
+}

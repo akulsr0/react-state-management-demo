@@ -1,0 +1,42 @@
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background: cadetblue;
+  place-items: center;
+}
+
+main {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  place-items: center;
+  background: beige;
+}
+
+footer {
+  display: grid;
+  place-items: center;
+  background: darksalmon;
+}
+
+.fetch-user-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.fetch-user-wrapper input {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-data-wrapper {
+  display: flex;
+  gap: 1rem;
+}
+
+.user-data-wrapper img {
+  width: 60px;
+  height: 60px;
+}
